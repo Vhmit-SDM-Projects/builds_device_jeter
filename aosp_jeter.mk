@@ -14,10 +14,10 @@ TARGET_BOOT_ANIMATION_RES := 720
 TARGET_INCLUDE_PIXEL_CHARGER := true
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/lineage/config/common_full_phone.mk)
+$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := lineage_jeter
+PRODUCT_NAME := aosp_jeter
 PRODUCT_DEVICE := jeter
 PRODUCT_BRAND := Motorola
 PRODUCT_MODEL := Moto G6 Play

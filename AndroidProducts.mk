@@ -15,9 +15,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/lineage_jeter.mk
+    $(LOCAL_DIR)/aosp_jeter.mk
 
 COMMON_LUNCH_CHOICES := \
-    lineage_jeter-user \
-    lineage_jeter-userdebug \
-    lineage_jeter-eng
+    aosp_jeter-user \
+    aosp_jeter-userdebug \
+    aosp_jeter-eng
