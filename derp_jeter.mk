@@ -13,6 +13,7 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 TARGET_BOOT_ANIMATION_RES := 720
 TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
+USE_LEGACY_BOOTANIMATION := true
 
 # Inherit some common Lineage stuff.
 $(call inherit-product, vendor/derp/config/common_full_phone.mk)
