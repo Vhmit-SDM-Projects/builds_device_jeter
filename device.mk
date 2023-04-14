@@ -313,7 +313,8 @@ PRODUCT_COPY_FILES += \
 
 # Packages
 PRODUCT_PACKAGES += \
-    QPGallery
+    QPGallery \
+    Debloater
 
 # Power
 PRODUCT_PACKAGES += \
