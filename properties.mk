@@ -96,13 +96,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Dalvik
 PRODUCT_PROPERTY_OVERRIDES += \
-    dalvik.vm.dex2oat64.enabled=true \
     dalvik.vm.heapstartsize=8m \
     dalvik.vm.heapgrowthlimit=192m \
     dalvik.vm.heapsize=512m \
-    dalvik.vm.heaptargetutilization=0.75 \
-    dalvik.vm.heapminfree=512k \
-    dalvik.vm.heapmaxfree=8m
+    dalvik.vm.heaptargetutilization=0.6 \
+    dalvik.vm.heapminfree=8m \
+    dalvik.vm.heapmaxfree=16m
 
 # DRM
 PRODUCT_VENDOR_PROPERTIES += \
@@ -127,7 +126,6 @@ PRODUCT_PROPERTY_OVERRIDES += \
     debug.gralloc.gfx_ubwc_disable=0 \
     debug.sf.enable_hwc_vds=0 \
     debug.sf.hw=0 \
-    debug.cpurend.vsync=false \
     debug.sf.auto_latch_unsignaled=true \
     debug.sf.recomputecrop=0 \
     debug.hwui.renderer=skiagl \
@@ -141,10 +139,12 @@ PRODUCT_PROPERTY_OVERRIDES += \
     vendor.gralloc.enable_fb_ubwc=1 \
     ro.sf.hwc_set_default_colormode=true \
     ro.vendor.display.cabl=0 \
+    ro.vendor.qti.am.reschedule_service=true \
     vendor.display.disable_rotator_downscale=1 \
     vendor.display.enable_default_color_mode=1 \
-    vendor.gralloc.disable_ahardware_buffer=1
-
+    vendor.gralloc.disable_ahardware_buffer=1 \
+    vendor.display.use_smooth_motion=1
+    
 # IMS
 PRODUCT_PROPERTY_OVERRIDES += \
     persist.vendor.ims.disableIMSLogs=1 \
