@@ -15,9 +15,8 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_jeter.mk
+    $(LOCAL_DIR)/derp_jeter.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_jeter-user \
-    aosp_jeter-userdebug \
-    aosp_jeter-eng
+    derp_jeter-userdebug \
+    derp_jeter-eng

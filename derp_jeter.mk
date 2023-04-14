@@ -15,10 +15,10 @@ TARGET_INCLUDE_PIXEL_CHARGER := true
 TARGET_INCLUDE_LIVE_WALLPAPERS := false
 
 # Inherit some common Lineage stuff.
-$(call inherit-product, vendor/aosp/config/common_full_phone.mk)
+$(call inherit-product, vendor/derp/config/common_full_phone.mk)
 
 # Device identifier. This must come after all inclusions.
-PRODUCT_NAME := aosp_jeter
+PRODUCT_NAME := derp_jeter
 PRODUCT_DEVICE := jeter
 PRODUCT_BRAND := Motorola
 PRODUCT_MODEL := Moto G6 Play
