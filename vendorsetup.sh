@@ -5,16 +5,11 @@ echo "cloning vendor"
 git clone -b thirteen https://github.com/Team-NoobMaster69/vendor_motorola_jeter vendor/motorola/jeter
 echo ""
 
-# Kernel
-echo "cloning kernel"
-git clone -b thirteen https://github.com/Vhmit/kernel_motorola_jeter kernel/motorola/msm8937
-echo ""
-
 # Dependencies
 echo "cloning dependencies"
-git clone -b lineage-18.1 https://github.com/LineageOS/android_external_sony_boringssl-compat external/sony/boringssl-compat
-git clone -b lineage-20 https://github.com/LineageOS/android_system_qcom system/qcom
-git clone -b lineage-20 https://github.com/LineageOS/android_hardware_motorola hardware/motorola
+git clone -b thirteen https://github.com/PixelExperience/system_qcom system/qcom
+git clone -b thirteen https://github.com/PixelExperience/hardware_motorola hardware/motorola
+git clone -b thirteen https://github.com/PixelExperience/external_bson external/bson
 echo ""
 
 # DtbTools Lineage
