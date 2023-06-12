@@ -2,7 +2,7 @@
 
 # Vendor
 echo "cloning vendor"
-git clone -b thirteen https://github.com/Team-NoobMaster69/vendor_motorola_jeter vendor/motorola/jeter
+git clone -b thirteen https://github.com/Team-NoobMaster69/vendor_motorola_aljeter vendor/motorola/jeter
 echo ""
 
 # Dependencies
